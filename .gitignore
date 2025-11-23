@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# virtual environments
+rnnvenv/
+midtermvenv/
+lrnnvenv/
+irisvenv/
+cnnvenv/
+.bcmvenv/
+
+# Ignore sensitive environment variables
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore built output directories
+/dist
+/build
+
+# Editor directories and files
+.vscode/*
+
+# Ignore all JSON files, with a critical exception
+*.json
+!package.json
+!package-lock.json
+!.vscode/extensions.json
